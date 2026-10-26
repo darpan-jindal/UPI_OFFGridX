@@ -1,4 +1,4 @@
-# UPI Offline Mesh — Demo
+# UPI-OFFGridX Mesh — Demo
 
 A Spring Boot backend that demonstrates **offline UPI payments routed through a Bluetooth-style mesh network**. You're in a basement with zero connectivity. You send your friend ₹500. Your phone encrypts the payment, broadcasts it to nearby phones, and the packet hops device-to-device until *some* phone walks outside, gets 4G, and silently uploads it to this backend. The backend decrypts, deduplicates, and settles.
 
@@ -246,7 +246,7 @@ See `BridgeIngestionService.java` for the freshness check.
 ## File-by-file walkthrough
 
 ```
-upi-offlgrid-x/
+upi-offgrid-x/
 ├── pom.xml                                  Maven build, Spring Boot 3.3, Java 17
 ├── mvnw, mvnw.cmd                           Maven wrapper (no install needed)
 ├── README.md                                this file
