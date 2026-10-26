@@ -246,7 +246,7 @@ See `BridgeIngestionService.java` for the freshness check.
 ## File-by-file walkthrough
 
 ```
-upi-offline-mesh/
+upi-offlgrid-x/
 ├── pom.xml                                  Maven build, Spring Boot 3.3, Java 17
 ├── mvnw, mvnw.cmd                           Maven wrapper (no install needed)
 ├── README.md                                this file
@@ -400,6 +400,4 @@ For a college / portfolio project: name the concept honestly as **"mesh-routed d
 
 ---
 
-## License
 
-Demo code, no license. Use it however you want for learning.
